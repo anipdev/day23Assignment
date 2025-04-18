@@ -29,9 +29,9 @@ DELETE /products/:id – Menghapus produk berdasarkan ID
 
 ### Product Images
 
-GET /products/:id/image – Mendapatkan semua pesanan
+GET /products/:id/image – Mendapatkan gambar produk
 
-POST /products/:id/image – Membuat pesanan baru
+POST /products/:id/image – Mengupdate gambar produk
 
 ### Stock Management
 
@@ -70,6 +70,7 @@ CREATE TABLE `products` (
 `description` TEXT,
 `price` DECIMAL(10,2),
 `category` VARCHAR(50),
+`image` VARCHAR(100),
 PRIMARY KEY (`id`)
 );
 
