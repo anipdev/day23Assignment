@@ -27,6 +27,12 @@ PUT /products/:id – Memperbarui data produk berdasarkan ID
 
 DELETE /products/:id – Menghapus produk berdasarkan ID
 
+### Product Images
+
+GET /products/:id/image – Mendapatkan semua pesanan
+
+POST /products/:id/image – Membuat pesanan baru
+
 ### Stock Management
 
 GET /stock – Melihat stok saat ini
